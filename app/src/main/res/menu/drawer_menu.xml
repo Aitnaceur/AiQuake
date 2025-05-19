@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_logging"
+        android:title="Logging"
+        android:icon="@android:drawable/ic_menu_edit" />
+    <item
+        android:id="@+id/nav_detection"
+        android:title="Detection"
+        android:icon="@android:drawable/ic_menu_compass" />
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Settings"
+        android:icon="@android:drawable/ic_menu_preferences" />
+</menu>

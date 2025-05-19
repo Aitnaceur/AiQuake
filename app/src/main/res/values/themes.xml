@@ -1,9 +1,19 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+
+    <!-- Base theme (used by Theme.AIQuakeProject) -->
     <style name="Base.Theme.AIQuakeProject" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Optional: customize colors here -->
+        <!-- <item name="colorPrimary">@color/your_primary</item> -->
     </style>
 
+    <!-- Splash screen theme -->
+    <style name="Theme.AIQuakeProject.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- Main application theme -->
     <style name="Theme.AIQuakeProject" parent="Base.Theme.AIQuakeProject" />
+
 </resources>

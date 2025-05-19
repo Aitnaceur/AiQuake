@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView android:id="@+id/accText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accelerometer Data"
+        android:textSize="16sp"
+        android:padding="8dp"/>
+
+    <TextView android:id="@+id/gpsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GPS Data"
+        android:textSize="16sp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/detectionStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: Monitoring..."
+        android:textSize="16sp"
+        android:textColor="#FF0000"
+        android:padding="8dp"/>
+
+    <Button android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Logging"/>
+
+    <Button android:id="@+id/stopButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Logging"/>
+
+    <Button
+        android:id="@+id/startDetection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Detection"/>
+
+    <Button
+        android:id="@+id/stopDetection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Detection"/>
+
+</LinearLayout>
